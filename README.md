@@ -1,0 +1,2 @@
+# infrabot-plugins
+Example plugins
