@@ -1,0 +1,17 @@
+{
+    "command_starts_with": "/gethostname",
+    "command_data_id": [
+        0
+    ],
+    "command_execute_file": "GetHostName.ps1",
+    "command_help_manual": "Shows host name where BOT works. Write `/gethostname` to get host name",
+    "command_help_short": "Shows host name where BOT works",
+    "command_author": "infrabot.io",
+    "command_version": "1.0.0.0",
+    "command_website": "https://infrabot.io",
+    "command_default_error": "",
+    "command_execute_type": 4,
+    "command_allowed_users_id": [],
+    "command_show_in_get_commands_list": true,
+    "command_execute_results": []
+}

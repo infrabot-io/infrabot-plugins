@@ -1,0 +1,17 @@
+{
+    "command_starts_with": "/gethostipconfig",
+    "command_data_id": [
+        0
+    ],
+    "command_execute_file": "GetHostIpConfig.ps1",
+    "command_help_manual": "Shows IPCONFIG of the host where BOT works. Write `/gethostipconfig` to get host IPCONFIG",
+    "command_help_short": "Shows IPCONFIG of the host where BOT works",
+    "command_author": "infrabot.io",
+    "command_version": "1.0.0.0",
+    "command_website": "https://infrabot.io",
+    "command_default_error": "",
+    "command_execute_type": 4,
+    "command_allowed_users_id": [],
+    "command_show_in_get_commands_list": true,
+    "command_execute_results": []
+}

@@ -1,0 +1,28 @@
+{
+    "command_starts_with": "/getdnshostname",
+    "command_data_id": [
+        2
+    ],
+    "command_execute_file": "GetDNSHostName.ps1",
+    "command_help_manual": "Gets DNS name by host IP from DNS. Write `/getdnshostname 10.100.1.100` to get 10.100.1.100 DNS A record",
+    "command_help_short": "Gets DNS name by host IP from DNS",
+    "command_author": "infrabot.io",
+    "command_version": "1.0.0.0",
+    "command_website": "https://infrabot.io",
+    "command_default_error": "{RESULT}",
+    "command_execute_type": 3,
+    "command_allowed_users_id": [],
+    "command_show_in_get_commands_list": true,
+    "command_execute_results": [
+        {
+            "result_value": "1",
+            "result_output": "Computer with `{DATA}` was not found! Make sure that you are writing right IP!",
+            "result_checktype": 1
+        },
+        {
+            "result_value": "0",
+            "result_output": "Computer with `{DATA}` was not found! No valid argument was sent to executable!",
+            "result_checktype": 1
+        }
+    ]
+}
